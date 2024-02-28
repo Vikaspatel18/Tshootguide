@@ -63,3 +63,48 @@
 - **Management:** Explained how Active Directory group policies control access to Citrix Workspace, allowing for specific resource access through group membership adjustments.
 
 </details>
+
+## Network Troubleshooting Guide
+
+<details>
+<summary><strong>Potential Causes</strong></summary>
+
+- **ISP Issues:** Problems with the internet service provider could lead to intermittent disconnections.
+- **Modem/Router Troubles:** Basic troubleshooting like resetting the modem may be necessary.
+
+</details>
+
+<details>
+<summary><strong>Troubleshooting Steps</strong></summary>
+
+- **Modem Reset:** Unplug the modem for 10 seconds to reset.
+- **IP Address Renewal:** Use "ipconfig /release" and "ipconfig /renew" commands to refresh the IP address.
+- **Signal Strength Check:** Ensure the device is within a good range of the wireless router or check for wired connection issues.
+
+</details>
+
+<details>
+<summary><strong>Lease and IP Address Concerns</strong></summary>
+
+- **Router Capacity:** The router may run out of IP addresses to assign, preventing devices from obtaining a new lease.
+- **Lease Duration:** Understanding how IP address leases work and when they renew can be key to solving connection problems.
+- **Network Adapter Inspection:** Look for physical or software issues with the network adapter in Device Manager.
+
+</details>
+
+<details>
+<summary><strong>Event Viewer Analysis</strong></summary>
+
+- **Critical Errors:** Use Event Viewer to find critical errors in Windows logs that could explain the disconnections.
+- **Custom Views:** Create views to filter for critical, error, and warning events related to network issues.
+
+</details>
+
+<details>
+<summary><strong>Network Adapter Troubleshooting</strong></summary>
+
+- **LAN Connectivity:** Confirm if the device is correctly connected to the local area network (LAN).
+- **Adapter and LAN Port Check:** If other devices are not affected, the problem might be with the specific network adapter or its LAN port.
+- **Driver Updates:** Updating the network adapter driver through Device Manager or the manufacturer's website might resolve the issue.
+
+</details>
