@@ -64,6 +64,52 @@
 
 </details>
 
+# SharePoint Access Issue and Troubleshooting Guide
+
+<details>
+<summary><strong>Initial Problem</strong></summary>
+<ul>
+<li><strong>Situation:</strong> User encounters "access denied" errors in SharePoint admin center.</li>
+<li><strong>Context:</strong> The user holds a Microsoft developer program and Office 365 E5 license.</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Troubleshooting Steps</strong></summary>
+<ul>
+<li><strong>Reassurance:</strong> The help desk encourages not to be overwhelmed by the issue's complexity.</li>
+<li><strong>Restoring Deleted Files:</strong></li>
+    <ul>
+    <li>Method 1: Direct the user to their OneDrive to restore files from the recycle bin.</li>
+    <li>Method 2: Use the SharePoint admin center for managing user profiles and restoring files.</li>
+    </ul>
+</ul>
+</details>
+
+<details>
+<summary><strong>Identifying Possible Causes</strong></summary>
+<ul>
+<li><strong>Personal Site Creation:</strong> Check if the user has an established personal site in OneDrive.</li>
+<li><strong>Admin Roles and Permissions:</strong> Verify the user's admin roles and permissions within SharePoint.</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Seeking Further Assistance</strong></summary>
+<ul>
+<li>If initial troubleshooting fails, contacting Microsoft for support is recommended through the help and support option available within Office 365.</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Additional Troubleshooting for SharePoint Access</strong></summary>
+<ul>
+<li><strong>Knight's Suggestion:</strong> Test access by using the SharePoint URL and the user's username/email.</li>
+<li><strong>Irvin's Advice:</strong> Confirm the user's Office 365 licenses are correct and that they have administrative access to SharePoint. It's also suggested to ensure the user has logged into SharePoint previously.</li>
+</ul>
+</details>
+
+
 ## Network Troubleshooting Guide
 
 <details>
